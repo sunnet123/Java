@@ -1,5 +1,12 @@
 package sub4;
-
+/*
+ * 
+ * 
+ * 날짜 : 2023/12/27
+ * 이름 : 최형욱
+ * 내용 : Java 반복문 while 실습하기 
+ * 
+ */
 public class WhileTest {
 
 	public static void main(String[] args) {

@@ -1,5 +1,9 @@
 package ch01.sec12;
-
+/*
+ * 장제목 : 1장 자바 시작하기
+ * 이름 : 최형욱
+ * 작성일 : 2023.12.27
+ */
 public class Calculator {
 
 	public static void main(String[] args) {

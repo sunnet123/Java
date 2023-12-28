@@ -1,5 +1,9 @@
 package ch02.sec04;
-
+/*
+ * 장제목 : 2장 실수타입
+ * 이름 : 최형욱
+ * 작성일 : 2023.12.27
+ */
 public class FloatDoubleExample {
 
 	public static void main(String[] args) {

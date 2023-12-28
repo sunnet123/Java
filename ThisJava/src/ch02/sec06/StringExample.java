@@ -1,5 +1,9 @@
 package ch02.sec06;
-
+/*
+ * 장제목 : 2장 문자열 타입
+ * 이름 : 최형욱
+ * 작성일 : 2023.12.27
+ */
 public class StringExample {
 
 	public static void main(String[] args) {

@@ -1,5 +1,12 @@
 package test1;
 
+
+/*
+ * 
+ * 날짜 : 2023/12/28
+ * 이름 : 최형욱
+ * 내용 : 자바 조건문 연습문제
+ */
 import java.util.Scanner;
 
 public class Test04 {
@@ -12,13 +19,13 @@ public class Test04 {
 		char grade;
 		
 		System.out.println("입력한 점수는 " + score + "입니다.");
-		if(score >= 90) {
+		if(score >= 90 && score <= 100) {
 			grade = 'A';
-		} else if(score >= 80) {
+		} else if(score >= 80 && score < 90) {
 			grade = 'B';
-		} else if(score >= 70) {
+		} else if(score >= 70 && score < 80) {
 			grade = 'C';
-		} else if(score >= 60) {
+		} else if(score >= 60 && score < 70) {
 			grade = 'D';
 		} else  {
 			grade = 'F';

@@ -14,9 +14,9 @@ public class Test09 {
 		
 		for(int i=1; i<=9; i++) {
 			if(i<=5) {
-				count = i;	// i값이 5이하인 경우 : count 변수는 i값과 같은 값을 가짐
+				count++;	
 			} else {
-				--count;	// i값이 5를 넘어가는 경우: count 변수는 1씩 감소
+				count--;	
 			}
 			
 			for(int j=1; j<=5-count; j++) {

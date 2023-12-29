@@ -10,8 +10,8 @@ public class Test03 {
 
 	public static void main(String[] args) {
 		
-		int result = 0;
 		int num = 1;
+		int result = 0;
 		
 		result = num++;
 		System.out.println("result : " + result);

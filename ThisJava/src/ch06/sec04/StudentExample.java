@@ -2,7 +2,7 @@ package ch06.sec04;
 /*
  * 날짜 : 2024/01/08
  * 이름 : 최형욱
- * 내용 : 객체 생성과 클래스 변수
+ * 내용 : 6장 객체 생성과 클래스 변수
  * 
  */
 public class StudentExample {

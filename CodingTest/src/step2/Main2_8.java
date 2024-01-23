@@ -8,27 +8,21 @@ public class Main2_8 {
 		
 		Scanner sc = new Scanner(System.in);
 		
-		int[] dice = new int[3];
+		int a = sc.nextInt();
+		int b = sc.nextInt();
+		int c = sc.nextInt();
 		
-		for(int i=0; i<dice.length; i++) {
-			dice[i] = sc.nextInt();
+		if((a == b) && (a == c)) {
+			System.out.println(10000 + (a*1000));
+		}else if(a == b || a == c) {
+			System.out.println(1000 + (a*100));
+		}else if(b == c) {
+			System.out.println(1000 + (b*100));
+		}else {
+			System.out.println(Math.max(a, Math.max(b, c))*100);
 		}
-		
-		int prize;
-		
-		if(dice[0] == dice[1] && dice[1] == dice[2]) {
-			
-			prize = 10000 + dice[0]* 1000;
-		}else if(dice[0] == dice[1] || dice[1] == dice[2] || dice[0] == dice[2]) {
-			
-			prize = 1000 + dice[1] * 100;
-		}else 
-		{
-			prize = dice[2] * 100;
-		}
-		
-		System.out.println(prize);
-
 	}
-
 }
+
+
+
